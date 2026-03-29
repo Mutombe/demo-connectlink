@@ -388,7 +388,7 @@ const siteData = {
   reviews: {
     heroTitle: [{ text: "Client " }, { text: "Reviews", highlight: true }],
     heroSubtitle: "Real feedback from businesses across Zimbabwe who trust Connectlink for their critical connectivity needs.",
-    ratingBreakdown: [{ stars: 5, count: 20 }, { stars: 4, count: 8 }, { stars: 3, count: 3 }, { stars: 2, count: 0 }, { stars: 1, count: 0 }],
+    ratingBreakdown: { 5: 20, 4: 8, 3: 3, 2: 0, 1: 0 },
     items: [
       { name: "Tapiwa Mhizha", role: "IT Director, First Mutual Holdings", text: "Connectlink's fibre network has been transformative. 99.9% uptime across all 12 branches for two consecutive years. Their NOC team proactively resolves issues before we even notice them.", rating: 5, date: "1 month ago", project: "Enterprise Network" },
       { name: "Nyasha Chirwa", role: "CTO, Econet Business", text: "We engaged Connectlink for our SD-WAN rollout. Their network design expertise and implementation speed were outstanding. Reduced our bandwidth costs by 35% while improving performance.", rating: 5, date: "2 months ago", project: "SD-WAN Deployment" },
